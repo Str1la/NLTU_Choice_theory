@@ -1,0 +1,140 @@
+  Lab1.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Lab_1, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Relation: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    intersection(Relation): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    unionOperation(Relation): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    difference(Relation): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    symmetricDifference(Relation): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    complement(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    inverse(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    composition(Relation): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    calculateDualRelation(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    getElement(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    getRow(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    getCol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isReflexive(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isAntiReflexive(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isSymmetric(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isAsymmetric(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isAntisymmetric(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isTransitive(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isAcyclic(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isLinear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isTolerance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isEquivalence(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isQuasiOrder(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isOrder(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isStrictOrder(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isLinearOrder(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    isStrictLinearOrder(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    findSymmetricComponent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    findAsymmetricComponent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    findTransitiveClosure(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    reach(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    mutualReach(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    op_Assign(Relation): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    isConsistent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    calculateDistance(Relation, Boolean(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class MatrixRelation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Relation
+    Void .ctor(MatrixRelation): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    createEmptyRelation(Int32, Int32): PrivateScope, Public, Static, HideBySig
+    createFullrelation(Int32, Int32): PrivateScope, Public, Static, HideBySig
+    createDiagonalRelation(Int32, Int32): PrivateScope, Public, Static, HideBySig
+    createAntiDiagonalRelation(Int32, Int32): PrivateScope, Public, Static, HideBySig
+    getRow(): PrivateScope, Public, Virtual, HideBySig
+    getCol(): PrivateScope, Public, Virtual, HideBySig
+    getElement(Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    setElement(Int32, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    intersection(Relation): PrivateScope, Public, Virtual, HideBySig
+    unionOperation(Relation): PrivateScope, Public, Virtual, HideBySig
+    difference(Relation): PrivateScope, Public, Virtual, HideBySig
+    symmetricDifference(Relation): PrivateScope, Public, Virtual, HideBySig
+    complement(): PrivateScope, Public, Virtual, HideBySig
+    inverse(): PrivateScope, Public, Virtual, HideBySig
+    composition(Relation): PrivateScope, Public, Virtual, HideBySig
+    calculateDualRelation(): PrivateScope, Public, Virtual, HideBySig
+    isReflexive(): PrivateScope, Public, Virtual, HideBySig
+    isAntiReflexive(): PrivateScope, Public, Virtual, HideBySig
+    isSymmetric(): PrivateScope, Public, Virtual, HideBySig
+    isAsymmetric(): PrivateScope, Public, Virtual, HideBySig
+    isAntisymmetric(): PrivateScope, Public, Virtual, HideBySig
+    isTransitive(): PrivateScope, Public, Virtual, HideBySig
+    isAcyclic(): PrivateScope, Public, Virtual, HideBySig
+    isLinear(): PrivateScope, Public, Virtual, HideBySig
+    isTolerance(): PrivateScope, Public, Virtual, HideBySig
+    isEquivalence(): PrivateScope, Public, Virtual, HideBySig
+    isQuasiOrder(): PrivateScope, Public, Virtual, HideBySig
+    isOrder(): PrivateScope, Public, Virtual, HideBySig
+    isStrictOrder(): PrivateScope, Public, Virtual, HideBySig
+    isLinearOrder(): PrivateScope, Public, Virtual, HideBySig
+    isStrictLinearOrder(): PrivateScope, Public, Virtual, HideBySig
+    findSymmetricComponent(): PrivateScope, Public, Virtual, HideBySig
+    findAsymmetricComponent(): PrivateScope, Public, Virtual, HideBySig
+    findTransitiveClosure(): PrivateScope, Public, Virtual, HideBySig
+    reach(): PrivateScope, Public, Virtual, HideBySig
+    mutualReach(): PrivateScope, Public, Virtual, HideBySig
+    op_Assign(MatrixRelation): PrivateScope, Public, HideBySig, SpecialName
+    ConvertToMatrixRelation(Relation, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    calculateExpressionK(MatrixRelation, MatrixRelation): PrivateScope, Public, HideBySig
+    isConsistent(): PrivateScope, Public, Virtual, HideBySig
+    calculateDistance(Relation, Boolean(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig
+    splitIntoClasses(vector<std::vector<int\,std::allocator<int> >\,std::allocator<std::vector<int\,std::allocator<int> > > >*): PrivateScope, Public, HideBySig
+    isEqualRow(Int32, Int32): PrivateScope, Public, HideBySig
+    EquivalenceCalculateDistance(MatrixRelation): PrivateScope, Public, HideBySig
+    findMaximums(vector<int\,std::allocator<int> >*): PrivateScope, Public, HideBySig
+    findMajors(vector<int\,std::allocator<int> >*): PrivateScope, Public, HideBySig
+    findMinimums(vector<int\,std::allocator<int> >*): PrivateScope, Public, HideBySig
+    findMinors(vector<int\,std::allocator<int> >*): PrivateScope, Public, HideBySig
+Class MetricMatrixRelation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :MatrixRelation
+    Void .ctor(MatrixRelation): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getElement(Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    setElement(Int32, Int32, Double): PrivateScope, Public, Virtual, HideBySig
+    getRow(): PrivateScope, Public, Virtual, HideBySig
+    getCol(): PrivateScope, Public, Virtual, HideBySig
+    unionOperation(Relation): PrivateScope, Public, Virtual, HideBySig
+    intersection(Relation): PrivateScope, Public, Virtual, HideBySig
+    difference(Relation): PrivateScope, Public, Virtual, HideBySig
+    symmetricDifference(Relation): PrivateScope, Public, Virtual, HideBySig
+    complement(): PrivateScope, Public, Virtual, HideBySig
+    inverse(): PrivateScope, Public, Virtual, HideBySig
+    composition(Relation): PrivateScope, Public, Virtual, HideBySig
+    DetermineRelationType(MetricMatrixRelation): PrivateScope, Public, HideBySig
+    isConsistent(): PrivateScope, Public, Virtual, HideBySig
+    calculateDistance(Relation, Boolean(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig
+Struct RelationType: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RelationType Additive = 0 : Public, Static, Literal, HasDefault
+    RelationType Multiplicative = 1 : Public, Static, Literal, HasDefault
+    RelationType Unknown = 2 : Public, Static, Literal, HasDefault
+Class Lab1.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
